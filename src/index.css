@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(assets/backgrund.png);
+  background-size: 1100px;
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+  background-position: 670px;
+}
+
+.lista-de-tarefas-container {
+  background: #2B2E4A;
+  width: 450px;
+  border-radius: 1rem;
+  padding: 10px;
+  box-shadow: -3px 5px 2px 1px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 180px;
+}
+
+.title {
+  font-size: 2.9rem;
+  font-family: "Outfit", sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+i {
+  margin-top: 9px;
+  font-size: 90px;
+  margin-right: 90px;
+}
+
+h2{
+  margin-left: 66px;
+}
+#remover{
+  color: white;
+}
+.importance {
+  height: 23px;
+}
+
+input{
+  height: 17px;
+}
+
+#Add {
+  width: 100px;
+  height: 22px;
+  border: none;
+  margin-top: 20px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: 0.2s linear;
+}
+
+#Add:hover {
+  border: 1px solid salmon;
+}
+
+#Add:active {
+  background-color: salmon;
+  color: white;
+}
+
+ul {
+  width: 100%;
+  padding: 0;
+  margin: 20px 0;
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+li button {
+  border: none;
+  background-color: transparent;
+  color: red;
+  cursor: pointer;
+}
